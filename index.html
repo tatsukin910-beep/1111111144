@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMA Framework | Complex Multilayered Abuse - 中村達希</title>
+  <link rel="stylesheet" href="css/css">
+  <style>
+    /* =========================
+    EXTENDED STYLES FOR CMA FRAMEWORK
+    ========================= */
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Hero Section Override */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
+      padding: var(--space-3) var(--space-2);
+    }
+
+    .hero-content {
+      max-width: 900px;
+      z-index: 2;
+    }
+
+    .hero-label {
+      font-size: clamp(0.9rem, 2vw, 1.1rem);
+      letter-spacing: 0.3em;
+      color: var(--text-sub);
+      opacity: 0.8;
+      margin-bottom: var(--space-2);
+      text-transform: uppercase;
+    }
+
+    .hero-title {
+      font-size: clamp(2.8rem, 9vw, 5.5rem);
+      line-height: 1.05;
+      margin: var(--space-2) 0;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-sub {
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+      margin: var(--space-2) 0;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .hero-text {
+      max-width: 720px;
+      margin: var(--space-3) auto;
+      color: var(--text-sub);
+      font-size: clamp(1rem, 1.2vw, 1.1rem);
+      line-height: 1.8;
+    }
+
+    /* Links Section */
+    .hero-links {
+      margin: var(--space-4) auto;
+      text-align: left;
+      display: inline-block;
+    }
+
+    .hero-links h2 {
+      font-size: 1.3rem;
+      color: var(--accent);
+      margin-bottom: var(--space-2);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: var(--space-1);
+    }
+
+    .hero-links ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .hero-links li {
+      margin: var(--space-1) 0;
+      font-size: 1rem;
+    }
+
+    .hero-links a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .hero-links a:hover {
+      opacity: 0.7;
+      text-decoration: underline;
+    }
+
+    /* Author Section */
+    .hero-author {
+      margin-top: var(--space-4);
+      color: var(--text-sub);
+      font-size: 1rem;
+    }
+
+    .hero-author strong {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* Divider */
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: var(--accent);
+      margin: var(--space-3) auto;
+      opacity: 0.5;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero {
+        padding: var(--space-2);
+      }
+
+      .hero-title {
+        margin: var(--space-1) 0;
+      }
+
+      .hero-text {
+        margin: var(--space-2) auto;
+      }
+
+      .hero-links {
+        margin-top: var(--space-3);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-label">Survivor-Led Conceptual Framework</div>
+
+      <h1 class="hero-title">Complex<br>Multilayered<br>Abuse</h1>
+
+      <div class="hero-sub">
+        CMA Framework<br>
+        <span style="font-size: 0.9em; opacity: 0.8;">A Structural Framework for Closed-Environment Abuse</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <p class="hero-text">
+        A survivor-led conceptual framework describing how multilayered abuse structures<br>
+        emerge, stabilize, and become resistant to intervention within closed environments.
+      </p>
+
+      <!-- Links Section -->
+      <div class="hero-links">
+        <h2>関連リンク</h2>
+        <ul>
+          <li><a href="https://note.com/tatsu97910" target="_blank" rel="noopener">note（記事・息遣い記録）</a></li>
+          <li><a href="https://orcid.org/0009-0004-9696-7896" target="_blank" rel="noopener">ORCID（研究者プロフィール）</a></li>
+          <li><a href="https://tayo.jp/users/01KSZKVJV1J84SDB73DHN6CAX0" target="_blank" rel="noopener">tayo（中村達希プロフィール）</a></li>
+          <li><a href="https://x.com/tatsu97910" target="_blank" rel="noopener">X / Twitter (@tatsu97910)</a></li>
+          <li><a href="https://potofu.me/tatsu97910" target="_blank" rel="noopener">Potofu（リンクまとめ）</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-author">
+        <div class="divider"></div>
+        Proposed by<br>
+        <strong>Tatsuki Nakamura</strong><br>
+        © 2026 中村達希 | #ComplexMultilayered
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
